@@ -38,7 +38,15 @@
       padding: 62px 20px;
       text-align: center;
     }
-
+.profile-photo {
+  width: 145px;
+  height: 145px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-bottom: 18px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
     header h1 {
       margin: 0;
       font-size: 44px;
@@ -247,8 +255,9 @@
 
 <body>
 
-  <header>
-    <h1>Dr. Mohamed Mohsen</h1>
+    <header>
+  <img src="profile.jpg" alt="Dr. Mohamed Mohsen" class="profile-photo">
+  <h1>Dr. Mohamed Mohsen</h1>
     <h2>Marine Ecology | Microplastics | Aquaculture | Ecotoxicology</h2>
     <p>
       Marine ecology researcher focusing on microplastic and nanoplastic pollution,
