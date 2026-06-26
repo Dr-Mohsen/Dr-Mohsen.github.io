@@ -1,1 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <title>Dr. Mohamed Mohsen | Marine Ecology & Microplastics Research</title>
+
+  <style>
+    :root {
+      --main: #245f7a;
+      --dark: #1f2933;
+      --light: #f6f9fb;
+      --text: #333333;
+      --muted: #666666;
+      --border: #dce6ec;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: #ffffff;
+    }
+
+    header {
+      background: linear-gradient(135deg, #245f7a, #12384a);
+      color: white;
+      padding: 55px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 42px;
+      letter-spacing: 0.5px;
+    }
+
+    header h2 {
+      margin: 10px 0 20px;
+      font-size: 21px;
+      font-weight: normal;
+      color: #e6f2f6;
+    }
+
+    header p {
+      max-width: 850px;
+      margin: 0 auto;
+      font-size: 17px;
+    }
+
+    nav {
+      background: white;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      text-align: center;
+      padding: 12px 10px;
+    }
+
+    nav a {
+      color: var(--main);
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      max-width: 1050px;
+      margin: auto;
+      padding: 45px 20px;
+    }
+
+    section:nth-child(even) {
+      background: var(--light);
+      max-width: none;
+    }
+
+    section:nth-child(even) > div {
+      max-width: 1050px;
+      margin: auto;
+    }
+
+    h2.section-title {
+      color: var(--main);
+      font-size: 29px;
+      margin-top: 0;
+      border-bottom: 3px solid var(--main);
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    h3 {
+      color: var(--dark);
+      margin-top: 28px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 22px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: var(--main);
+    }
+
+    .tag-list span {
+      display: inline-block;
+      background: #e8f2f6;
+      color: #18485e;
+      padding: 7px 11px;
+      margin: 5px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .publication {
+      margin-bottom: 18px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .publication strong {
+      color: var(--dark);
+    }
+
+    .button {
+      display: inline-block;
+      background: var(--main);
+      color: white;
+      padding: 11px 18px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .button:hover {
+      background: #174457;
+    }
+
+    .note {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    footer {
+      background: var(--dark);
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #b9e3f2;
+      text-decoration: none;
+    }
+
+    @media (max-width: 650px) {
+      header h1 {
+        font-size: 32px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 6px 8px;
+      }
+
+      section {
+        padding: 35px 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Dr. Mohamed Mohsen</h1>
+    <h2>Marine Ecologist | Microplastics & Aquaculture Researcher</h2>
+    <p>
+      Assistant Professor and marine ecology researcher specializing in microplastic pollution,
+      aquaculture systems, sea cucumber biology, ecotoxicology, and aquatic animal responses
+      to environmental stressors.
+    </p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#experience">Experience</a>
+    <a href="#publications">Publications</a>
+    <a href="#teaching">Teaching & Service</a>
+    <a href="#awards">Awards</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2 class="section-title">About</h2>
+    <p>
+      Dr. Mohamed Mohsen is a marine ecologist with a Ph.D. in Marine Ecology from the
+      Chinese Academy of Sciences, China. His research focuses on the environmental impacts
+      of microplastics and nanoplastics, aquatic animal health, aquaculture ecology, and
+      the resilience of aquatic species to pollutants and environmental stressors.
+    </p>
+
+    <p>
+      He is currently an Assistant Professor at the Faculty of Agriculture, Al-Azhar University.
+      He has also worked as a postdoctoral scholar at Jimei University and the Institute of
+      Oceanology, Chinese Academy of Sciences, where he investigated microplastic contamination
+      in aquafeed, sea cucumber products, aquaculture environments, and aquatic organisms.
+    </p>
+
+    <div class="tag-list">
+      <span>Marine Ecology</span>
+      <span>Microplastics</span>
+      <span>Nanoplastics</span>
+      <span>Aquaculture</span>
+      <span>Sea Cucumbers</span>
+      <span>Ecotoxicology</span>
+      <span>Aquatic Pollution</span>
+    </div>
+  </section>
+
+  <section id="research">
+    <div>
+      <h2 class="section-title">Research Interests</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Microplastics in Aquaculture</h3>
+          <p>
+            Investigating sources, abundance, composition, and ecological risks of microplastics
+            in aquaculture environments, aquafeed, and aquatic organisms.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Sea Cucumber Biology</h3>
+          <p>
+            Studying ingestion, transfer, accumulation, and biological effects of microplastics
+            and other stressors in sea cucumbers.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Ecotoxicology</h3>
+          <p>
+            Evaluating oxidative stress, tissue pathology, physiological responses, and toxicological
+            impacts of microplastics, nanoplastics, heavy metals, and climate-related stressors.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Aquatic Animal Health</h3>
+          <p>
+            Assessing how environmental pollutants and aquaculture conditions affect fish,
+            invertebrates, and other aquatic species.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2 class="section-title">Academic & Research Experience</h2>
+
+    <h3>Assistant Professor</h3>
+    <p>
+      <strong>Faculty of Agriculture, Al-Azhar University</strong><br>
+      August 2022 – Present
+    </p>
+    <ul>
+      <li>Designing and delivering lectures, seminars, tutorials, and course materials.</li>
+      <li>Conducting and publishing research in marine ecology, aquaculture, and environmental pollution.</li>
+      <li>Participating in departmental committees and academic program development.</li>
+    </ul>
+
+    <h3>Postdoctoral Scholar</h3>
+    <p>
+      <strong>Jimei University, China</strong><br>
+      January 2023 – August 2024
+    </p>
+    <ul>
+      <li>Investigated microplastic contamination and sources in aquaculture feed.</li>
+      <li>Studied microplastic and nanoplastic effects on aquatic animals.</li>
+      <li>Assessed oxidative stress, tissue pathology, and toxicological responses.</li>
+    </ul>
+
+    <h3>Postdoctoral Scholar</h3>
+    <p>
+      <strong>Institute of Oceanology, Chinese Academy of Sciences, China</strong><br>
+      June 2020 – December 2022
+    </p>
+    <ul>
+      <li>Studied the transport and effects of microplastics in sea cucumbers.</li>
+      <li>Developed methods for extracting microplastics from sea cucumber tissues.</li>
+      <li>Analyzed microplastic abundance, shape, chemical composition, and associated microbial communities.</li>
+    </ul>
+
+    <h3>Field Experience</h3>
+    <ul>
+      <li>Bio-treatment project management using silver carp for canal water purification.</li>
+      <li>Recirculating aquaculture system site management for Nile tilapia farming.</li>
+      <li>Marine fish farming in cages and ponds.</li>
+      <li>Water quality monitoring, fish health follow-up, feed management, and system maintenance.</li>
+    </ul>
+  </section>
+
+  <section id="publications">
+    <div>
+      <h2 class="section-title">Selected Publications</h2>
+
+      <h3>Books and Book Chapters</h3>
+      <div class="publication">
+        <strong>Mohsen, M., & Yang, H. 2021.</strong>
+        Sea cucumbers: Aquaculture, Biology and Ecology. Academic Press.
+      </div>
+
+      <div class="publication">
+        <strong>Nour, A., & Mohsen, M. 2024.</strong>
+        Algae Production. Alalamiyah Publishing. In Arabic.
+      </div>
+
+      <div class="publication">
+        <strong>Mohsen, M., & Lin, C. 2024.</strong>
+        Sea cucumber response to microplastic pollution. In <em>The World of Sea Cucumbers</em>.
+        Academic Press.
+      </div>
+
+      <h3>Selected First-Author Papers</h3>
+
+      <div class="publication">
+        <strong>Mohsen, M., Ismail, S., Yuan, X., Yu, Z., Chenggang, L., & Yang, H. 2024.</strong>
+        Sea cucumber physiological response to abiotic stress: emergent contaminants and climate change.
+        <em>Science of the Total Environment</em>.
+      </div>
+
+      <div class="publication">
+        <strong>Mohsen, M., Wang, Q., Zhang, L., Sun, L., Lin, C., & Yang, H. 2019.</strong>
+        Microplastic ingestion by the farmed sea cucumber <em>Apostichopus japonicus</em> in China.
+        <em>Environmental Pollution</em>, 245, 1071–1078.
+      </div>
+
+      <div class="publication">
+        <strong>Mohsen, M., Wang, Q., Zhang, L., Sun, L., Lin, C., & Yang, H. 2019.</strong>
+        Heavy metals in sediment, microplastic and sea cucumber <em>Apostichopus japonicus</em>
+        from farms in China. <em>Marine Pollution Bulletin</em>, 143, 42–49.
+      </div>
+
+      <div class="publication">
+        <strong>Mohsen, M., Wang, Q., Zhang, L., Sun, L., Lin, C., & Yang, H. 2021.</strong>
+        Mechanism underlying the toxicity of microplastic fibre transfer in the sea cucumber
+        <em>Apostichopus japonicus</em>. <em>Journal of Hazardous Materials</em>.
+      </div>
+
+      <div class="publication">
+        <strong>Mohsen, M., Lin, C., Abdalla, M., Liu, S., & Yang, H. 2023.</strong>
+        Microplastics in canned, salt-dried, and instant sea cucumbers sold for human consumption.
+        <em>Marine Pollution Bulletin</em>, 192, 115040.
+      </div>
+
+      <div class="publication">
+        <strong>Mohsen, M., Lin, C., Liu, S., & Yang, H. 2022.</strong>
+        Existence of microplastics in the edible part of the sea cucumber
+        <em>Apostichopus japonicus</em>. <em>Chemosphere</em>, 287, 132062.
+      </div>
+
+      <p class="note">
+        Full publication list can be added later with DOI links, Google Scholar links, and ORCID links.
+      </p>
+    </div>
+  </section>
+
+  <section id="teaching">
+    <h2 class="section-title">Teaching & Academic Service</h2>
+
+    <h3>Teaching</h3>
+    <ul>
+      <li>Basic genetics for aquaculture.</li>
+      <li>Animal care.</li>
+      <li>Marine ecology, aquaculture, and aquatic environmental science topics.</li>
+      <li>Lecture preparation, seminars, tutorials, and course material development.</li>
+    </ul>
+
+    <h3>Peer Review and Academic Service</h3>
+    <p>
+      Dr. Mohsen has completed more than 70 peer-review records for scientific journals,
+      including journals in marine science, environmental pollution, aquaculture, toxicology,
+      hydrology, and environmental monitoring.
+    </p>
+
+    <h3>Skills</h3>
+    <div class="tag-list">
+      <span>Data Visualization</span>
+      <span>R Programming</span>
+      <span>Scientific Writing</span>
+      <span>Research Design</span>
+      <span>Analytical Skills</span>
+      <span>Graphical Design</span>
+      <span>Problem Solving</span>
+    </div>
+  </section>
+
+  <section id="awards">
+    <div>
+      <h2 class="section-title">Funding, Awards & Scholarships</h2>
+
+      <h3>Research Funding</h3>
+      <ul>
+        <li>
+          Principal investigator, Research Fund for International Young Scholars,
+          National Science Foundation of China.
+        </li>
+      </ul>
+
+      <h3>Awards and Scholarships</h3>
+      <ul>
+        <li>Chinese Government Scholarship, China.</li>
+        <li>Best Ph.D. UCAS Student Award, Chinese Academy of Sciences.</li>
+        <li>Best Ph.D. UCAS Graduate Award, Chinese Academy of Sciences.</li>
+        <li>Fujian Talent Award, Jimei University of China.</li>
+        <li>Best BSc Student of the Year Award, Al-Azhar University.</li>
+        <li>Excellent BSc Graduate Award, Agricultural Professions Syndicate.</li>
+      </ul>
+
+      <h3>Conferences</h3>
+      <ul>
+        <li>Echinoderm Committee Conference.</li>
+        <li>International Aquaculture Conference.</li>
+        <li>Bioinformatics Conference.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
+
+    <p>
+      For research collaboration, academic communication, or publication inquiries, please use
+      the contact links below.
+    </p>
+
+    <p>
+      <strong>Email:</strong> replace-this-with-your-professional-email@example.com
+    </p>
+
+    <p>
+      <strong>ORCID:</strong> add your ORCID link here<br>
+      <strong>Google Scholar:</strong> add your Google Scholar link here<br>
+      <strong>LinkedIn:</strong> add your LinkedIn link here
+    </p>
+
+    <p class="note">
+      For privacy, phone numbers and reference contact details are not listed on this public website.
+    </p>
+
+    <a class="button" href="#about">Back to Top</a>
+  </section>
+
+  <footer>
+    <p>
+      © 2026 Dr. Mohamed Mohsen. Personal academic website.
+    </p>
+  </footer>
+
+</body>
+</html>
