@@ -38,15 +38,7 @@
       padding: 62px 20px;
       text-align: center;
     }
-.profile-photo {
-  width: 145px;
-  height: 145px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 4px solid white;
-  margin-bottom: 18px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-}
+
     header h1 {
       margin: 0;
       font-size: 44px;
@@ -136,6 +128,13 @@
     .card h3 {
       margin-top: 0;
       color: var(--main);
+    }
+
+    .blog-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 260px;
     }
 
     .metric {
@@ -255,9 +254,8 @@
 
 <body>
 
-    <header>
-  <img src="profile.jpg" alt="Dr. Mohamed Mohsen" class="profile-photo">
-  <h1>Dr. Mohamed Mohsen</h1>
+  <header>
+    <h1>Dr. Mohamed Mohsen</h1>
     <h2>Marine Ecology | Microplastics | Aquaculture | Ecotoxicology</h2>
     <p>
       Marine ecology researcher focusing on microplastic and nanoplastic pollution,
@@ -577,48 +575,58 @@
     <h2 class="section-title">Blog & Research Notes</h2>
 
     <p>
-      Short research notes and updates related to microplastic pollution, aquaculture,
-      sea cucumber biology, seafood safety, and aquatic ecotoxicology.
+      Short, easy-to-read research notes based on published work in microplastic pollution,
+      aquaculture, sea cucumber biology, seafood safety, and aquatic ecotoxicology.
     </p>
 
     <div class="grid">
 
-      <div class="card">
-        <h3>Microplastics in Aquafeed</h3>
-        <p class="note">Research note | Coming soon</p>
-        <p>
-          A short discussion on microplastic contamination in aquafeed ingredients,
-          possible contamination sources, and implications for aquaculture sustainability
-          and aquatic animal health.
-        </p>
+      <div class="card blog-card">
+        <div>
+          <h3>Plastic Fibers Inside Sea Cucumbers</h3>
+          <p class="note">Research note | Microplastic transfer pathway</p>
+          <p>
+            How tiny plastic fibers in water can enter sea cucumbers through respiration
+            and reach their internal fluid.
+          </p>
+        </div>
+        <a class="button" href="plastic-fibers-sea-cucumbers.html">Read Article</a>
       </div>
 
-      <div class="card">
-        <h3>Sea Cucumbers as Pollution Indicators</h3>
-        <p class="note">Research note | Coming soon</p>
-        <p>
-          Notes on how sea cucumbers can reflect environmental contamination through
-          ingestion, particle accumulation, and physiological responses to pollutants.
-        </p>
+      <div class="card blog-card">
+        <div>
+          <h3>Are Lab Studies Realistic?</h3>
+          <p class="note">Research note | Experimental design gap</p>
+          <p>
+            Many microplastic experiments show harm, but some use conditions far from
+            real aquaculture environments.
+          </p>
+        </div>
+        <a class="button" href="realistic-microplastic-studies.html">Read Article</a>
       </div>
 
-      <div class="card">
-        <h3>Nanoplastics and Aquatic Animal Health</h3>
-        <p class="note">Research note | Coming soon</p>
-        <p>
-          A brief overview of why nanoplastics may pose toxicological risks to aquatic
-          animals because of their small size, biological reactivity, and potential
-          tissue-level effects.
-        </p>
+      <div class="card blog-card">
+        <div>
+          <h3>Microplastics as Water Quality Signals</h3>
+          <p class="note">Research note | Aquaculture monitoring</p>
+          <p>
+            Why measuring microplastics may become useful for assessing aquaculture
+            site quality and animal exposure risk.
+          </p>
+        </div>
+        <a class="button" href="microplastics-water-quality.html">Read Article</a>
       </div>
 
-      <div class="card">
-        <h3>Research Updates</h3>
-        <p class="note">News | Coming soon</p>
-        <p>
-          Updates on new publications, conference activities, collaborative work,
-          and ongoing research in marine ecology and environmental pollution.
-        </p>
+      <div class="card blog-card">
+        <div>
+          <h3>Research Updates</h3>
+          <p class="note">News | Coming soon</p>
+          <p>
+            Updates on new publications, conference activities, collaborative work,
+            and ongoing research in marine ecology and environmental pollution.
+          </p>
+        </div>
+        <a class="button" href="#profiles">View Profiles</a>
       </div>
 
     </div>
